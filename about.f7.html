@@ -1,0 +1,64 @@
+<template>
+<div class="page" data-name="about">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Kalkulator</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block-title">About My App</div>
+    <div class="block block-strong">
+        
+<title>Kalkulator</title>
+<meta charset="utf-8" />
+<style type="text/css">
+#calculator {
+    background: #eaeaea;
+    margin: 0 auto;
+    padding: 70px 50px 70px 50px;
+    width: 200px;
+    text-align: center;
+}
+#calculator button {
+    padding: 10px;
+    width: 40px;
+}
+#calculator input[type="text"] {
+    padding: 20px;
+    width: 198px;
+    margin-bottom: 10px;
+    background: #B0BEC5;
+}
+    #calculator input[type="number"] {
+    padding: 20px;
+    width: 198px;
+    margin-bottom: 10px;
+         background: #B0BEC5;
+}
+  
+</style>
+ <form id="calculator">
+    <input type="number" id="a" placeholder="a" />
+    <input type="number" id="b" placeholder="b" />
+    <input type="text" id="wynik" placeholder="=" disabled="disabled" />
+    <button type="button" id="plus">+</button> 
+    <button type="button" id="minus">-</button>
+    <button type="button" id="razy">x</button>   
+    <button type="button" id="dzielenie">/</button>
+  </form>
+    </div>
+    <div class="block">
+    </div>
+  </div>
+</div>
+</template>
+<script>
+export default {};
+</script>
